@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "GOT",
+    "image": "localhost/images/loki.png",
+    "reactionImage": "localhost/images/fire.png",
+    "reactionTitle": "Jamie Nguyen"
+  },
+  {
+    "id": 2,
+    "title": "Loki",
+    "image": "localhost/images/loki.png",
+    "reactionImage": "localhost/images/fire.png",
+    "reactionTitle": "Jamie Nguyen"
+  },
+  {
+    "id": 3,
+    "title": "Fatherhood",
+    "image": "localhost/images/loki.png",
+    "reactionImage": "localhost/images/fire.png",
+    "reactionTitle": "Jamie Nguyen"
+  },
+  {
+    "id": 4,
+    "title": "GOT",
+    "image": "localhost/images/loki.png",
+    "reactionImage": "localhost/images/fire.png",
+    "reactionTitle": "Jamie Nguyen"
+  },
+  {
+    "id": 5,
+    "title": "FLash",
+    "image": "localhost/images/loki.png",
+    "reactionImage": "localhost/images/fire.png",
+    "reactionTitle": "Jamie Nguyen"
+  },
+  {
+    "id": 6,
+    "title": "Arrow",
+    "image": "localhost/images/loki.png",
+    "reactionImage": "localhost/images/fire.png",
+    "reactionTitle": "Jamie Nguyen"
+  }
+]
