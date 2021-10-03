@@ -1,16 +1,19 @@
 const SIZES = {
-  horizontalSmall: "horizontalSmall",
-  horizontalMedium: "horizontalMedium",
-  horizontalLarge: "horizontalLarge",
+  "50_50": "50*50",
+  "240_359": "240*259",
+  "210_118": "210*118",
+  "101_151": "101*151",
+  "320_186": "320*180",
 };
+
 const TYPES = {
-  carousel: "carousel",
-  addYourShows: "addYourShows",
-  whatYourFriends: "whatYourFriends",
-  zip: "zipCode",
-  youtube: "youtubeConnect",
-  qewdDigest: "qewdDigest",
-  awardsWinnigSeason: "awardsWinnigSeason",
+  carousel: 0,
+  carouselWithSelection: 1,
+  carouselWithEmoticons: 2,
+  carouselWithIcons: 3,
+  zip: 4,
+  youtube: 5,
+  qewdDigest: 6,
 };
 const KEYS = {
   addYourShows: "addYourShows",
@@ -27,7 +30,8 @@ const KEYS = {
   latestReleases: "latestReleases",
 };
 const addYourShows = {
-  type: TYPES.addYourShows,
+  type: TYPES.carouselWithSelection,
+  size: SIZES["101_151"],
   title: "Add Your Shows",
   icon: "",
   key: KEYS.addYourShows,
@@ -35,6 +39,7 @@ const addYourShows = {
 
 const yourQewdDigest = {
   type: TYPES.qewdDigest,
+  size: null,
   title: "Your Qewd Digest",
   icon: "",
   key: KEYS.yourQewdDigest,
@@ -42,27 +47,30 @@ const yourQewdDigest = {
 
 const yourNewEpisodes = {
   type: TYPES.carousel,
-  size: SIZES.horizontalLarge,
+  size: SIZES["320_186"],
   title: "Your New Episodes",
   icon: "",
   key: KEYS.yourNewEpisodes,
 };
 
 const whatYourFriends = {
-  type: TYPES.whatYourFriends,
+  type: TYPES.carouselWithEmoticons,
+  size: SIZES["210_118"],
   title: "What Your Friends Are Watching",
   icon: "",
   key: KEYS.whatYourFriends,
 };
 const zipCode = {
   type: TYPES.zip,
+  cardType: null,
   title: "Where are you at",
   icon: "",
   subtitle: "Your location will help us show you what's popular in your area.",
   key: KEYS.zipCode,
 };
 const awardsWinnigSeason = {
-  type: TYPES.awardsWinnigSeason,
+  type: TYPES.carousel,
+  size: SIZES["320_186"],
   title: "2020 Award-Winning Season",
   icon: "",
   key: KEYS.awardsWinnigSeason,
@@ -70,7 +78,7 @@ const awardsWinnigSeason = {
 
 const topDocumentarySeries = {
   type: TYPES.carousel,
-  size: SIZES.horizontalSmall,
+  size: SIZES["101_151"],
   title: "Top Documentary Series",
   icon: "",
   key: KEYS.topDocumentarySeries,
@@ -78,6 +86,7 @@ const topDocumentarySeries = {
 
 const youtubeConnect = {
   type: TYPES.youtube,
+  size: null,
   title: "Supercharge your Qewd",
   icon: "",
   subtitle:
@@ -87,7 +96,7 @@ const youtubeConnect = {
 
 const popularAroundYou = {
   type: TYPES.carousel,
-  size: SIZES.horizontalMedium,
+  size: SIZES["210_118"],
   title: "People Around You",
   icon: "",
   key: KEYS.popularAroundYou,
@@ -95,7 +104,7 @@ const popularAroundYou = {
 
 const bestYouTubePicks = {
   type: TYPES.carousel,
-  size: SIZES.horizontalMedium,
+  size: SIZES["210_118"],
   title: "Best YouTube Picks for You",
   icon: "",
   key: KEYS.bestYouTubePicks,
@@ -103,7 +112,7 @@ const bestYouTubePicks = {
 
 const hiddenGems = {
   type: TYPES.carousel,
-  size: SIZES.horizontalMedium,
+  size: SIZES["210_118"],
   title: "Hidden Gems for you",
   icon: "",
   key: KEYS.hiddenGems,
@@ -111,7 +120,7 @@ const hiddenGems = {
 
 const latestReleases = {
   type: TYPES.carousel,
-  size: SIZES.horizontalMedium,
+  size: SIZES["210_118"],
   title: "Latest Releases",
   icon: "",
   key: KEYS.latestReleases,

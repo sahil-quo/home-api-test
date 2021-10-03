@@ -4,7 +4,7 @@ const getPageData = require("./helper/pages");
 const app = express();
 const port = 3000;
 
-const URL = "http://18.236.173.27:3000";
+const URL = "http://18.236.173.27:1048";
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
@@ -27,5 +27,5 @@ app.get("/home/:pageId", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at ${URL}:${port}`);
+  console.log(`Example app listening at ${URL}`);
 });

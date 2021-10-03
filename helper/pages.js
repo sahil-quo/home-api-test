@@ -19,7 +19,7 @@ function getPageData(page, hostUrl) {
       delete newObject.key;
 
       newObject = JSON.parse(
-        JSON.stringify(newObject).replaceAll("localhost", hostUrl)
+        replaceAll(JSON.stringify(newObject), "localhost", hostUrl)
       );
       returnObject.data.push(newObject);
     }
@@ -27,5 +27,11 @@ function getPageData(page, hostUrl) {
     return returnObject;
   }
   return null;
+}
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); // $& means the whole matched string
+}
+function replaceAll(str, match, replacement) {
+  return str.replace(new RegExp(escapeRegExp(match), "g"), () => replacement);
 }
 module.exports = getPageData;
