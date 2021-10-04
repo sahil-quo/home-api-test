@@ -30,6 +30,7 @@ const KEYS = {
   latestReleases: "latestReleases",
 };
 const addYourShows = {
+  id: 1,
   type: TYPES.carouselWithSelection,
   size: SIZES["101_151"],
   title: "Add Your Shows",
@@ -38,6 +39,7 @@ const addYourShows = {
 };
 
 const yourQewdDigest = {
+  id: 2,
   type: TYPES.qewdDigest,
   size: null,
   title: "Your Qewd Digest",
@@ -46,6 +48,7 @@ const yourQewdDigest = {
 };
 
 const yourNewEpisodes = {
+  id: 3,
   type: TYPES.carousel,
   size: SIZES["320_186"],
   title: "Your New Episodes",
@@ -54,6 +57,7 @@ const yourNewEpisodes = {
 };
 
 const whatYourFriends = {
+  id: 4,
   type: TYPES.carouselWithEmoticons,
   size: SIZES["210_118"],
   title: "What Your Friends Are Watching",
@@ -61,6 +65,7 @@ const whatYourFriends = {
   key: KEYS.whatYourFriends,
 };
 const zipCode = {
+  id: 5,
   type: TYPES.zip,
   cardType: null,
   title: "Where are you at",
@@ -69,6 +74,7 @@ const zipCode = {
   key: KEYS.zipCode,
 };
 const awardsWinnigSeason = {
+  id: 6,
   type: TYPES.carousel,
   size: SIZES["320_186"],
   title: "2020 Award-Winning Season",
@@ -77,6 +83,7 @@ const awardsWinnigSeason = {
 };
 
 const topDocumentarySeries = {
+  id: 7,
   type: TYPES.carousel,
   size: SIZES["101_151"],
   title: "Top Documentary Series",
@@ -85,6 +92,7 @@ const topDocumentarySeries = {
 };
 
 const youtubeConnect = {
+  id: 8,
   type: TYPES.youtube,
   size: null,
   title: "Supercharge your Qewd",
@@ -95,6 +103,7 @@ const youtubeConnect = {
 };
 
 const popularAroundYou = {
+  id: 9,
   type: TYPES.carousel,
   size: SIZES["210_118"],
   title: "People Around You",
@@ -103,6 +112,7 @@ const popularAroundYou = {
 };
 
 const bestYouTubePicks = {
+  id: 10,
   type: TYPES.carousel,
   size: SIZES["210_118"],
   title: "Best YouTube Picks for You",
@@ -111,6 +121,7 @@ const bestYouTubePicks = {
 };
 
 const hiddenGems = {
+  id: 11,
   type: TYPES.carousel,
   size: SIZES["210_118"],
   title: "Hidden Gems for you",
@@ -119,6 +130,7 @@ const hiddenGems = {
 };
 
 const latestReleases = {
+  id: 12,
   type: TYPES.carousel,
   size: SIZES["210_118"],
   title: "Latest Releases",
