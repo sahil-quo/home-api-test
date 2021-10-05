@@ -3,36 +3,36 @@
     "id": 1,
     "title": "GOT",
     "season": "S03",
-    "image": "localhost/images/loki.png"
+    "image": "localhost/images/large1.png"
   },
   {
     "id": 2,
     "title": "Loki",
     "season": "S03",
-    "image": "localhost/images/loki.png"
+    "image": "localhost/images/large2.png"
   },
   {
     "id": 3,
     "title": "Fatherhood",
     "season": "S03",
-    "image": "localhost/images/loki.png"
+    "image": "localhost/images/large1.png"
   },
   {
     "id": 4,
     "title": "GOT",
     "season": "S03",
-    "image": "localhost/images/loki.png"
+    "image": "localhost/images/large2.png"
   },
   {
     "id": 5,
     "title": "FLash",
     "season": "S03",
-    "image": "localhost/images/loki.png"
+    "image": "localhost/images/large1.png"
   },
   {
     "id": 6,
     "title": "Arrow",
     "season": "S03",
-    "image": "localhost/images/loki.png"
+    "image": "localhost/images/large2.png"
   }
 ]

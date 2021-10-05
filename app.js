@@ -2,9 +2,12 @@ const express = require("express");
 const path = require("path");
 const getPageData = require("./helper/pages");
 const app = express();
-const port = 3000;
 
+const port = 1048;
 const URL = "http://18.236.173.27:1048";
+
+//const URL = "http://localhost:3000";
+//const port = 3000;
 
 app.get("/", (req, res) => {
   res.send("Hello World!");

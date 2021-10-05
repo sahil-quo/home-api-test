@@ -2,43 +2,43 @@
   {
     "id": 1,
     "title": "GOT",
-    "image": "localhost/images/loki.png",
+    "image": "localhost/images/medium3.png",
     "reactionImage": "localhost/images/fire.png",
     "reactionTitle": "Jamie Nguyen"
   },
   {
     "id": 2,
     "title": "Loki",
-    "image": "localhost/images/loki.png",
-    "reactionImage": "localhost/images/fire.png",
+    "image": "localhost/images/medium2.png",
+    "reactionImage": "localhost/images/super.png",
     "reactionTitle": "Jamie Nguyen"
   },
   {
     "id": 3,
     "title": "Fatherhood",
-    "image": "localhost/images/loki.png",
+    "image": "localhost/images/medium1.png",
     "reactionImage": "localhost/images/fire.png",
     "reactionTitle": "Jamie Nguyen"
   },
   {
     "id": 4,
     "title": "GOT",
-    "image": "localhost/images/loki.png",
-    "reactionImage": "localhost/images/fire.png",
+    "image": "localhost/images/medium4.png",
+    "reactionImage": "localhost/images/super.png",
     "reactionTitle": "Jamie Nguyen"
   },
   {
     "id": 5,
     "title": "FLash",
-    "image": "localhost/images/loki.png",
+    "image": "localhost/images/medium5.png",
     "reactionImage": "localhost/images/fire.png",
     "reactionTitle": "Jamie Nguyen"
   },
   {
     "id": 6,
     "title": "Arrow",
-    "image": "localhost/images/loki.png",
-    "reactionImage": "localhost/images/fire.png",
+    "image": "localhost/images/medium7.png",
+    "reactionImage": "localhost/images/super.png",
     "reactionTitle": "Jamie Nguyen"
   }
 ]
