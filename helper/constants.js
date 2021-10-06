@@ -106,7 +106,7 @@ const popularAroundYou = {
   id: 9,
   type: TYPES.carousel,
   size: SIZES["210_118"],
-  title: "People Around You",
+  title: "Popular Around You",
   icon: "",
   key: KEYS.popularAroundYou,
 };
